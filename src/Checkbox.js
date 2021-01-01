@@ -41,8 +41,7 @@ function Checkbox({
   };
 
   return (
-    <div style={{ display: 'flex' }}>
-      <label style={{ display: 'inline-block', height }}>
+      <label style={{ display: 'flex', height }}>
         <div
           style={style}
           onMouseEnter={() => setHovered(true)}
@@ -72,7 +71,6 @@ function Checkbox({
           onChange={checkboxOnChange}
         />
       </label>
-    </div>
   );
 }
 
